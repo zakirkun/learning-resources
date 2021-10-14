@@ -7,7 +7,7 @@
 
 const arr = [2, 4, 2, 4];
 
-// map all value inside type of Array object to `value * 4`
+// Map all values inside type of Array object to `value * 4`
 const mapped = arr.map(x => x * 4);
 
 console.log(mapped);
