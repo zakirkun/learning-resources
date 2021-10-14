@@ -19,10 +19,6 @@ async function returnAsync2 () {
 
 returnAsync2().then(res => console.log(res));
 
-// async function without returning await
-async function returnAsync3 () {
-  return "Hello";
-}
 
 // async function with await return, the benefit returning await is you can also use try catch to handle the promise rejection.
 async function shouldThrow () {
